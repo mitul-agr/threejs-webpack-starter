@@ -1,0 +1,6 @@
+{
+  "name": "threejs-webpack",
+  "version": "0.1.0",
+  "description": "Basic setup of three.js with webpack",
+  "main": "index.html",
+}
