@@ -5,5 +5,7 @@ module.exports = merge(commonConfiguration, {
   mode: 'development',
   devServer: {
     open: false,
+    compress: true,
+    hot: true,
   },
 });
