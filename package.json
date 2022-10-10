@@ -1,11 +1,11 @@
 {
-  "name": "threejs-webpack",
+  "name": "continuous-threejs-webpack",
   "version": "0.1.0",
-  "description": "Basic setup of three.js with webpack",
+  "description": "Basic setup of three.js and webpack with added CI/CD",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack-dev-server --config ./bundler/webpack.dev.js",
-    "start": "yarn run dev"
+    "start": "webpack-dev-server --config ./bundler/webpack.dev.js"
   },
   "dependencies": {
     "three": "^0.143.0"
