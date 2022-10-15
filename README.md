@@ -1,4 +1,4 @@
-<h1 align="center">Continuous THREE.js Starter</h1>
+<h1 align="center">THREE.js Starter CI</h1>
 
 This is a fork from [threejs-webpack-starter](https://github.com/ShivangAgr/threejs-webpack-starter) containing a basic setup of three.js and webpack, and added CI/CD!
 
@@ -17,9 +17,9 @@ Follow the steps below to run this project locally. Remember to add `NETLIFY_AUT
 
 ```bash
 # Clone repository
-$ git clone https://github.com/$your_username/continuous-threejs-webpack-starter.git
+$ git clone https://github.com/$your_username/threejs-webpack-starter-ci.git
 
-$ cd continuous-threejs-webpack-starter
+$ cd threejs-webpack-starter-ci
 ```
 
 2. Install dependencies via NPM or Yarn
