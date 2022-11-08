@@ -1,6 +1,8 @@
 <h1 align="center">THREE.js Starter CI</h1>
 
-This is a fork from [threejs-webpack-starter](https://github.com/ShivangAgr/threejs-webpack-starter) containing a basic setup of three.js and webpack, and added CI/CD!
+This is a fork from [threejs-webpack-starter](https://github.com/ShivangAgr/threejs-webpack-starter) containing a basic setup of three.js and webpack, and added CI/CD.
+
+### [Click here to see the project in production](https://threejs-webpack-starter.netlify.app/)
 
 # CI/CD Features
 
