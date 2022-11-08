@@ -32,6 +32,6 @@ jobs:
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
     - name: Bump version and push tag
       if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message), '#skip') }}
-      uses: anothrNick/github-tag-action@v1.52.0
+      uses: anothrNick/github-tag-action@1.52.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
